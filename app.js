@@ -34,12 +34,12 @@ Vue.component('recpatcha',{
     </transition>
   </div>`
   });
-  Vue.component('recpatcha-test', {
-    data: function () {
-      return {
+  Vue.component('recpatcha-test',{
+    data: function(){
+      return{
       }
     },
-    props: {
+    props:{
       show: Boolean,
     },
     template: `<div class="recaptcha-test bg-white shadow m-2 p-2">
