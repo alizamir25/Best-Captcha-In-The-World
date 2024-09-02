@@ -1,4 +1,4 @@
-body *
+* {
   .recaptcha {
     font-family: Roboto,helvetica,arial,sans-serif;
     margin: 100px;
@@ -59,3 +59,4 @@ body *
   .fade-enter, .fade-leave-to {
     opacity: 0;
   }
+}
