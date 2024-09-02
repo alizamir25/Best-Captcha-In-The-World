@@ -1,10 +1,10 @@
-Vue.component('recpatcha', {
-    data: function () {
-      return {
+Vue.component('recpatcha',{
+    data: function(){
+      return{
         show: false
       }
     },
-    props: {
+    props:{
       showerror: Boolean,
     },
     template: `<div class="recaptcha-cover">
