@@ -34,7 +34,6 @@ Vue.component('recpatcha', {
     </transition>
   </div>`
   });
-  
   Vue.component('recpatcha-test', {
     data: function () {
       return {
@@ -100,5 +99,4 @@ Vue.component('recpatcha', {
     </div>
   </div>`
   });
-  
   new Vue({ el: '#recaptcha-app' })
